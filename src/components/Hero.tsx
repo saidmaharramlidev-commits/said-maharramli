@@ -4,7 +4,6 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import { IconButton } from "@mui/material";
 import MenuIcon from '@mui/icons-material/Menu';
 import { TbBrandFiverr } from "react-icons/tb";
-import me from "../assets/me.jpg"
 import { useDispatch, useSelector } from "react-redux";
 import ClearIcon from '@mui/icons-material/Clear';
 import type { RootState } from "../redux/store";
@@ -54,7 +53,7 @@ function Hero() {
                         </Button>
                     </div>
                     <div id="imageOfHero">
-                        <img src={me} alt="Said Maharramli" />
+                        <img src="../src/assets/me.jpg" alt="Said Maharramli" />
                     </div>
 
                 </div>

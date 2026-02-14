@@ -1,5 +1,5 @@
 import './App.css'
-import Lenis from "@studio-freight/lenis";
+import Lenis from "lenis";
 import { useEffect } from 'react';
 import Hero from './components/Hero'
 import "./css/hero.css"
