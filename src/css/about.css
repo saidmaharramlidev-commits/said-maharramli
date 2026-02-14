@@ -270,7 +270,15 @@
 
 @media(max-width:380px) {
     #leftUl li {
-        font-size: 1.1rem;
+        font-size: 1rem;
+    }
+
+    #aboutMeText {
+        font-size: 0.8rem;
+    }
+
+    #headOfInterestingInfo {
+        font-size: 0.9rem;
     }
 
 
