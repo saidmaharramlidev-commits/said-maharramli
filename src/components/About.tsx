@@ -7,8 +7,6 @@ import { useEffect } from "react";
 
 function About() {
 
-
-
     useEffect(() => {
         const leftAbout = document.getElementById("leftAbout")
 

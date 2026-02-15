@@ -1,13 +1,20 @@
 import './App.css'
 import Lenis from "lenis";
 import { useEffect } from 'react';
-import Hero from './components/Hero'
 import "./css/hero.css"
 import './css/animation.css'
 import "./css/about.css"
-import About from './components/About';
+import "./css/projects.css"
+import { Route, Routes, useNavigate } from 'react-router-dom';
+import AllProjects from './components/AllProjects';
+import Home from './components/Home';
 
 function App() {
+  const navigate = useNavigate()
+
+  useEffect(() => {
+    navigate("/")
+  }, [])
 
 
   useEffect(() => {
@@ -30,8 +37,11 @@ function App() {
 
   return (
     <>
-      <Hero />
-      <About />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/projects' element={<AllProjects />} />
+      </Routes>
+
     </>
   )
 }
