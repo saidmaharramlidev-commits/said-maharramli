@@ -1,0 +1,50 @@
+#mainFaq {
+    width: 100%;
+    min-height: 730px;
+    background-color: #0D0D0F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+#faqTag {
+    color: silver;
+    padding-top: 40px;
+}
+
+#headerOfFaq {
+    color: white;
+    font-size: 2.3rem;
+}
+
+
+#mainAccordion {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+@media(max-width:600px) {
+    #mainAccordion {
+        width: 85%;
+    }
+}
+
+@media(max-width:500px) {
+    #mainAccordion {
+        width: 90%;
+    }
+}
+
+@media(max-width:400px) {
+    #mainAccordion {
+        width: 95%;
+    }
+
+    #headerOfFaq {
+        font-size: 1.8rem;
+    }
+
+}

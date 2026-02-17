@@ -26,14 +26,14 @@ function Projects() {
                 </div>
                 <div className="project">
                     <img src={MovieSearcher} alt="" />
-                    <h1>Business Landing Page</h1>
-                    <p>This is my Cobalt landing page prototype template. All placeholder areas can be easily customized with your own text, images, and other information.</p>
+                    <h1>Movie/Tv show Searcher</h1>
+                    <p>A web app to search, explore movies and TV series. Browse by name, genre, or IMDb rating, see detailed info and cast, and save your favorites for quick access.</p>
                     <Button href="https://said-movies-tvshows-searcher.vercel.app/" variant="contained" sx={{ backgroundColor: "darkgreen" }}>Go to project</Button>
                 </div>
                 <div className="project">
                     <img src={Cobalt} alt="" />
-                    <h1>Movie/Tv show Searcher</h1>
-                    <p>A web app to search, explore movies and TV series. Browse by name, genre, or IMDb rating, see detailed info and cast, and save your favorites for quick access.</p>
+                    <h1>Business Landing Page</h1>
+                    <p>This is my Cobalt landing page prototype template. All placeholder areas can be easily customized with your own text, images, and other information.</p>
                     <Button href="https://said-cobalt-prototype.vercel.app/" variant="contained" sx={{ backgroundColor: "darkgreen" }}>Go to project</Button>
                 </div>
 

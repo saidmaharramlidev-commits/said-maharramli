@@ -7,7 +7,10 @@ import "./css/about.css"
 import "./css/projects.css"
 import { Route, Routes, useNavigate } from 'react-router-dom';
 import AllProjects from './components/AllProjects';
+import AllTemplates from './components/AllTemplates';
 import Home from './components/Home';
+import "./css/templates.css"
+import "./css/faq.css"
 
 function App() {
   const navigate = useNavigate()
@@ -40,6 +43,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/projects' element={<AllProjects />} />
+        <Route path='/templates' element={<AllTemplates />} />
       </Routes>
 
     </>

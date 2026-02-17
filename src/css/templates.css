@@ -1,0 +1,45 @@
+#mainTemplates {
+    width: 100%;
+    min-height: 730px;
+    background-color: #1B1B20;
+}
+
+
+#headerOfTemplates {
+    position: relative;
+    width: 100%;
+    font-size: 1.7rem;
+    color: white;
+
+}
+
+#headerOfTemplates h1 {
+    position: absolute;
+    left: 5%;
+    display: inline;
+}
+
+
+
+
+
+
+
+
+@media(max-width:500px) {
+
+    #headerOfTemplates {
+        font-size: 1.5rem;
+
+    }
+
+}
+
+@media(max-width:400px) {
+
+    #headerOfTemplates {
+        font-size: 1.3rem;
+
+    }
+
+}

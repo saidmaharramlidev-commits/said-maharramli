@@ -8,6 +8,7 @@ import { useDispatch, useSelector } from "react-redux";
 import ClearIcon from '@mui/icons-material/Clear';
 import type { RootState } from "../redux/store";
 import { setNavbar } from "../redux/counterSlice";
+import me from "../assets/myself.jpg"
 
 
 
@@ -34,8 +35,8 @@ function Hero() {
                 <Stack spacing={10} id="navbar" direction={"row"} className={navbarOpen ? "open" : ""}>
                     <div id="endPoints">
                         <a href="#mainAbout">About</a>
-                        <a href="">Projects</a>
-                        <a href="">Templates</a>
+                        <a href="#mainProjects">Projects</a>
+                        <a href="#mainTemplates">Templates</a>
                         <a href="">Get in touch</a>
                     </div>
                     <div id="socialMedia">
@@ -48,12 +49,12 @@ function Hero() {
                     <div id="textOfHero">
                         <h1>Said Maharramli</h1>
                         <p>I build modern, responsive web interfaces with clean structure and strong visual impact. Focused on performance, usability, and real-world projects.</p>
-                        <Button id="heroCta">
+                        <Button id="heroCta" href="#mainProjects">
                             See My Work {" >> "}
                         </Button>
                     </div>
                     <div id="imageOfHero">
-                        <img src="../src/assets/me.jpg" alt="Said Maharramli" />
+                        <img src={me} alt="Said Maharramli" />
                     </div>
 
                 </div>
