@@ -35,7 +35,7 @@ function FAQ() {
                 <Accordion
                     expanded={expanded === 'panel1'}
                     onChange={handleChange('panel1')}
-                    sx={{ backgroundColor: "#121212", color: "white" }}
+                    sx={{ backgroundColor: "#16161D", color: "white" }}
 
                 >
                     <AccordionSummary aria-controls="panel1d-content" id="panel1d-header" expandIcon={expanded === "panel1" ? <RemoveCircleOutlineIcon sx={{ color: "white" }} /> : <AddCircleOutlineIcon sx={{ color: "white" }} />} >
@@ -50,7 +50,7 @@ function FAQ() {
 
 
 
-                <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')} sx={{ backgroundColor: "#121212", color: "white" }}>
+                <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')} sx={{ backgroundColor: "#16161D", color: "white" }}>
                     <AccordionSummary
                         expandIcon={expanded === "panel2" ? <RemoveCircleOutlineIcon sx={{ color: "white" }} /> : <AddCircleOutlineIcon sx={{ color: "white" }} />}
                         aria-controls="panel1d-content"
@@ -66,7 +66,7 @@ function FAQ() {
 
 
 
-                <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')} sx={{ backgroundColor: "#121212", color: "white" }}>
+                <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')} sx={{ backgroundColor: "#16161D", color: "white" }}>
                     <AccordionSummary
                         expandIcon={expanded === "panel3" ? <RemoveCircleOutlineIcon sx={{ color: "white" }} /> : <AddCircleOutlineIcon sx={{ color: "white" }} />}
                         aria-controls="panel1d-content" id="panel1d-header">
@@ -81,7 +81,7 @@ function FAQ() {
 
 
 
-                <Accordion expanded={expanded === 'panel4'} onChange={handleChange('panel4')} sx={{ backgroundColor: "#121212", color: "white" }}>
+                <Accordion expanded={expanded === 'panel4'} onChange={handleChange('panel4')} sx={{ backgroundColor: "#16161D", color: "white" }}>
                     <AccordionSummary
                         expandIcon={expanded === "panel4" ? <RemoveCircleOutlineIcon sx={{ color: "white" }} /> : <AddCircleOutlineIcon sx={{ color: "white" }} />}
                         aria-controls="panel1d-content" id="panel1d-header">
@@ -96,7 +96,7 @@ function FAQ() {
 
 
 
-                <Accordion expanded={expanded === 'panel5'} onChange={handleChange('panel5')} sx={{ backgroundColor: "#121212", color: "white" }}>
+                <Accordion expanded={expanded === 'panel5'} onChange={handleChange('panel5')} sx={{ backgroundColor: "#16161D", color: "white" }}>
                     <AccordionSummary
                         expandIcon={expanded === "panel5" ? <RemoveCircleOutlineIcon sx={{ color: "white" }} /> : <AddCircleOutlineIcon sx={{ color: "white" }} />}
                         aria-controls="panel1d-content" id="panel1d-header">
@@ -112,7 +112,7 @@ function FAQ() {
 
 
 
-                <Accordion expanded={expanded === 'panel6'} onChange={handleChange('panel6')} sx={{ backgroundColor: "#121212", color: "white" }}>
+                <Accordion expanded={expanded === 'panel6'} onChange={handleChange('panel6')} sx={{ backgroundColor: "#16161D", color: "white" }}>
                     <AccordionSummary
                         expandIcon={expanded === "panel6" ? <RemoveCircleOutlineIcon sx={{ color: "white" }} /> : <AddCircleOutlineIcon sx={{ color: "white" }} />}
                         aria-controls="panel1d-content" id="panel1d-header">

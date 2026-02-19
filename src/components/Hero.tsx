@@ -37,7 +37,7 @@ function Hero() {
                         <a href="#mainAbout">About</a>
                         <a href="#mainProjects">Projects</a>
                         <a href="#mainTemplates">Templates</a>
-                        <a href="">Get in touch</a>
+                        <a href="#mainContact">Get in touch</a>
                     </div>
                     <div id="socialMedia">
                         <a href="https://www.instagram.com/developer_said/"><InstagramIcon /></a>

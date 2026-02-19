@@ -6,11 +6,12 @@ import './css/animation.css'
 import "./css/about.css"
 import "./css/projects.css"
 import { Route, Routes, useNavigate } from 'react-router-dom';
-import AllProjects from './components/AllProjects';
-import AllTemplates from './components/AllTemplates';
-import Home from './components/Home';
+import AllProjects from './pages/AllProjects';
+import AllTemplates from './pages/AllTemplates';
+import Home from './pages/Home';
 import "./css/templates.css"
 import "./css/faq.css"
+import "./css/contact.css"
 
 function App() {
   const navigate = useNavigate()

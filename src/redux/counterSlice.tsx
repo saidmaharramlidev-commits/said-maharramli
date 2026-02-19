@@ -2,11 +2,15 @@ import { createSlice, type PayloadAction } from '@reduxjs/toolkit'
 
 export interface CounterState {
     navbarOpen: boolean
+    formLoading: boolean
+    isFormSubmitted: boolean
 
 }
 
 const initialState: CounterState = {
-    navbarOpen: false
+    navbarOpen: false,
+    formLoading: false,
+    isFormSubmitted: false
 }
 
 export const counterSlice = createSlice({
@@ -16,10 +20,17 @@ export const counterSlice = createSlice({
         setNavbar: (state, action: PayloadAction<boolean>) => {
             state.navbarOpen = action.payload
 
+        },
+        setFormLoading: (state, action: PayloadAction<boolean>) => {
+            state.formLoading = action.payload
+
+        },
+        setFormSubmitted: (state, action: PayloadAction<boolean>) => {
+            state.isFormSubmitted = action.payload
         }
     }
 })
 
-export const { setNavbar } = counterSlice.actions
+export const { setNavbar, setFormLoading, setFormSubmitted } = counterSlice.actions
 
 export default counterSlice.reducer

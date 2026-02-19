@@ -13,12 +13,12 @@ function Templates() {
                 <div className="project">
                     <img src={GymCore} alt="" />
                     <h1>GymCore</h1>
-                    <p>a modern, fully responsive gym template with bold sections, training programs, services, and clear call-to-action buttons to engage and convert visitors online.</p>
+                    <p>A modern, fully responsive gym template with bold sections, training programs, services, and clear call-to-action buttons to engage and convert visitors online.</p>
                     <Button href="https://said-gym-template.vercel.app/" variant="contained" sx={{ backgroundColor: "darkgreen" }}>Go to project</Button>
                 </div>
 
             </div>
-            <Button id="ctaOfProjects" variant="contained" onClick={() => navigate("/templates")} >See all templates</Button>
+            <Button id="ctaOfTemplates" variant="contained" onClick={() => navigate("/templates")} >See all templates</Button>
 
         </div>
     )
