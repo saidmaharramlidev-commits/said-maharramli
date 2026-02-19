@@ -87,7 +87,7 @@ function Contact() {
                     "service_1aqxvhr",
                     "template_3rr9ppl",
                     values,
-                    "APbIS8y8JO1vQN1hk"
+                    `${import.meta.env.VITE_EMAILJS_PUBLIC}`
                 )
 
                 dispatch(setFormSubmitted(true))
