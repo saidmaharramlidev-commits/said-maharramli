@@ -1,8 +1,8 @@
 import { Button } from "@mui/material"
 import { useNavigate } from "react-router-dom";
-import Barbershop from "../assets/Barbarshop.png"
 import MovieSearcher from "../assets/Movie Searcher.png"
 import Cobalt from "../assets/cobalt landing.png"
+import Construction from "../assets/construction.png"
 
 
 function Projects() {
@@ -19,10 +19,10 @@ function Projects() {
             </div>
             <div id="projects-wrapper">
                 <div className="project">
-                    <img src={Barbershop} alt="" />
-                    <h1>Barbershop Site</h1>
-                    <p>This is my site, inspired by Wayward Barbershop. Every section is fully customizable,so you can add your own text, images, and content.</p>
-                    <Button href="https://said-barbershop-project.vercel.app/" variant="contained" sx={{ backgroundColor: "darkgreen" }}>Go to project</Button>
+                    <img src={Construction} alt="" />
+                    <h1>Construction Site</h1>
+                    <p>I developed a responsive front-end recreation of the cortexconstruction.az website.This project displays my skills in component-based architecture, responsive design, and professional website structuring.</p>
+                    <Button href="https://said-construction.vercel.app/" variant="contained" sx={{ backgroundColor: "darkgreen" }}>Go to project</Button>
                 </div>
                 <div className="project">
                     <img src={MovieSearcher} alt="" />
