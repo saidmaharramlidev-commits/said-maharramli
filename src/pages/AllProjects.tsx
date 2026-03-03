@@ -47,6 +47,12 @@ function AllProjects() {
                     <p>AfterReel is an interactive web app built with React and modern CSS. It asks users questions and gives ratings based on their answers, combining functionality with a clean, responsive design.</p>
                     <Button href="https://afterreel.vercel.app/" variant="contained" sx={{ backgroundColor: "darkgreen" }}>Go to project</Button>
                 </div>
+                <div className="project">
+                    <img src={MovieSearcher} alt="" />
+                    <h1>Movie/Tv show Searcher</h1>
+                    <p>A web app to search, explore movies and TV series. Browse by name, genre, or IMDb rating, see detailed info and cast, and save your favorites for quick access.</p>
+                    <Button href="https://said-movies-tvshows-searcher.vercel.app/" variant="contained" sx={{ backgroundColor: "darkgreen" }}>Go to project</Button>
+                </div>
 
             </div>
             <Button id="ctaOfProjects" variant="contained" onClick={() => navigate("/")} href="#mainProjects" >Back</Button>
