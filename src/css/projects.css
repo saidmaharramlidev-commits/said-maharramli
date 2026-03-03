@@ -155,6 +155,10 @@
         width: 75%;
     }
 
+    .project p {
+        font-size: 0.7rem;
+    }
+
 }
 
 @media(max-width:500px) {
