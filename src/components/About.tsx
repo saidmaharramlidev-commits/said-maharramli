@@ -63,7 +63,7 @@ function About() {
                         <li>l am 18,living in Azerbaijan</li>
                         <li>Front-End Developer</li>
                         <li>Social Work Student</li>
-                        <li>Web developer with 8 months of experience</li>
+                        <li>Web developer with 9 months of experience</li>
                         <br />
                         <li>
                             <strong style={{ color: "white" }}>Languages:</strong>
