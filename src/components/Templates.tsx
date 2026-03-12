@@ -1,6 +1,7 @@
 import { Button } from "@mui/material"
 import { useNavigate } from "react-router-dom"
 import GymCore from "../assets/gymCore.png"
+import MemoryPhoto from "../assets/memory-photo.png"
 
 function Templates() {
     const navigate = useNavigate()
@@ -15,6 +16,13 @@ function Templates() {
                     <h1>GymCore</h1>
                     <p>A modern, fully responsive gym template with bold sections, training programs, services, and clear call-to-action buttons to engage and convert visitors online.</p>
                     <Button href="https://said-gym-template.vercel.app/" variant="contained" sx={{ backgroundColor: "darkgreen" }}>Go to project</Button>
+                </div>
+
+                <div className="project">
+                    <img src={MemoryPhoto} alt="" />
+                    <h1>Memory Photo</h1>
+                    <p>Memory Photo is fully responsive photography portfolio template designed to help photographers showcase their work.It features a clean hero,about,portfolio, and sections for services and contact that is easy for visitors to get in touch.</p>
+                    <Button href="https://said-memory-photo.vercel.app/" variant="contained" sx={{ backgroundColor: "darkgreen" }}>Go to project</Button>
                 </div>
 
             </div>
