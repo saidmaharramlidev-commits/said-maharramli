@@ -2,7 +2,7 @@ import { Button } from "@mui/material"
 import { useNavigate } from "react-router-dom";
 import Cobalt from "../assets/cobalt landing.png"
 import Construction from "../assets/construction.png"
-import Saga from "../assets/saga.png"
+import Saga from "../assets/sagaHero.png"
 
 
 function Projects() {
