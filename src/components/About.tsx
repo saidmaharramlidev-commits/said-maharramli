@@ -4,6 +4,7 @@ import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaReact } from "react-icons/fa";
 import { useEffect } from "react";
+import { SiNextdotjs } from "react-icons/si";
 
 function About() {
 
@@ -63,7 +64,7 @@ function About() {
                         <li>l am 18,living in Azerbaijan</li>
                         <li>Front-End Developer</li>
                         <li>Social Work Student</li>
-                        <li>Web developer with 9 months of experience</li>
+                        <li>Web developer with 10 months of experience</li>
                         <br />
                         <li>
                             <strong style={{ color: "white" }}>Languages:</strong>
@@ -97,6 +98,7 @@ function About() {
                             <li><div className="skill"><FaCss3Alt />  CSS</div></li>
                             <li><div className="skill"><IoLogoJavascript />  Javascript</div></li>
                             <li><div className="skill"><FaReact />  React.js</div></li>
+                            <li><div className="skill"><SiNextdotjs />  Next.js</div></li>
                         </ul>
                     </div>
                     <div id="rightAboutDown">

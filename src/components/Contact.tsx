@@ -11,6 +11,9 @@ import Box from '@mui/material/Box';
 
 import { useFormik } from 'formik'
 import { formScheme } from '../schemes/formScheme';
+import { SiUpwork } from "react-icons/si";
+
+
 
 export function CircularIndeterminate() {
     return (
@@ -122,6 +125,9 @@ function Contact() {
                         </div>
                         <div className='contactSocialMedia'>
                             <a href="https://www.fiverr.com/saidmaharramli/buying?source=avatar_menu_profile"><TbBrandFiverr style={{ width: "23px", height: "23px", backgroundColor: "#1B1B20", borderRadius: "5px", padding: "10px" }} /> <span>Fiverr</span></a>
+                        </div>
+                        <div className='contactSocialMedia'>
+                            <a href="https://www.upwork.com/freelancers/~01da6baf41a2f55873"><SiUpwork style={{ width: "23px", height: "23px", backgroundColor: "#1B1B20", borderRadius: "5px", padding: "10px" }} /> <span>Upwork</span></a>
                         </div>
 
                     </div>

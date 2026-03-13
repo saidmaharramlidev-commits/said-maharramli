@@ -4,6 +4,7 @@ import AfterReel from "../assets/AfterReel.png"
 import MovieSearcher from "../assets/Movie Searcher.png"
 import Cobalt from "../assets/cobalt landing.png"
 import Construction from "../assets/construction.png"
+import Saga from "../assets/sagaHero.png"
 
 
 
@@ -23,16 +24,16 @@ function AllProjects() {
                     <Button href="https://said-construction.vercel.app/" variant="contained" sx={{ backgroundColor: "darkgreen" }}>Go to project</Button>
                 </div>
                 <div className="project">
-                    <img src={MovieSearcher} alt="" />
+                    <img src={Cobalt} alt="" />
                     <h1>Business Landing Page</h1>
                     <p>This is my Cobalt landing page prototype template. All placeholder areas can be easily customized with your own text, images, and other information.</p>
                     <Button href="https://said-movies-tvshows-searcher.vercel.app/" variant="contained" sx={{ backgroundColor: "darkgreen" }}>Go to project</Button>
                 </div>
                 <div className="project">
-                    <img src={Cobalt} alt="" />
-                    <h1>Movie/Tv show Searcher</h1>
-                    <p>A web app to search, explore movies and TV series. Browse by name, genre, or IMDb rating, see detailed info and cast, and save your favorites for quick access.</p>
-                    <Button href="https://said-cobalt-prototype.vercel.app/" variant="contained" sx={{ backgroundColor: "darkgreen" }}>Go to project</Button>
+                    <img src={Saga} alt="" />
+                    <h1>Saga Site</h1>
+                    <p>This project is called Saga and inspired by ega.az.This project highlights my ability to build modern user interfaces using component-based architecture, implement fully responsive design principles, and structure content in a clear and scalable way</p>
+                    <Button href="https://said-saga.vercel.app/" variant="contained" sx={{ backgroundColor: "darkgreen" }}>Go to project</Button>
                 </div>
                 <div className="project">
                     <img src={AfterReel} alt="" />
