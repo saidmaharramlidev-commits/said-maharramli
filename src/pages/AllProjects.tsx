@@ -1,10 +1,10 @@
 import { Button } from "@mui/material"
 import { useNavigate } from "react-router-dom";
 import AfterReel from "../assets/AfterReel.png"
-import MovieSearcher from "../assets/Movie Searcher.png"
 import Cobalt from "../assets/cobalt landing.png"
 import Construction from "../assets/construction.png"
 import Saga from "../assets/sagaHero.png"
+import TravelJoy from "../assets/traveljoy.png"
 
 
 
@@ -23,12 +23,7 @@ function AllProjects() {
                     <p>I developed a responsive front-end recreation of the cortexconstruction.az website.This project displays my skills in component-based architecture, responsive design, and professional website structuring.</p>
                     <Button href="https://said-construction.vercel.app/" variant="contained" sx={{ backgroundColor: "darkgreen" }}>Go to project</Button>
                 </div>
-                <div className="project">
-                    <img src={Cobalt} alt="" />
-                    <h1>Business Landing Page</h1>
-                    <p>This is my Cobalt landing page prototype template. All placeholder areas can be easily customized with your own text, images, and other information.</p>
-                    <Button href="https://said-movies-tvshows-searcher.vercel.app/" variant="contained" sx={{ backgroundColor: "darkgreen" }}>Go to project</Button>
-                </div>
+
                 <div className="project">
                     <img src={Saga} alt="" />
                     <h1>Saga Site</h1>
@@ -36,17 +31,25 @@ function AllProjects() {
                     <Button href="https://said-saga.vercel.app/" variant="contained" sx={{ backgroundColor: "darkgreen" }}>Go to project</Button>
                 </div>
                 <div className="project">
+                    <img src={TravelJoy} alt="" />
+                    <h1>TravelJoy</h1>
+                    <p>TravelJoy is a modern, responsive travel website inspired by Voyalux.az, designed to showcase clean UI and smooth user experience. It highlights my frontend skills through elegant layouts, responsive design, and interactive components built with attention to detail.</p>
+                    <Button href="https://said-travel-joy.vercel.app/" variant="contained" sx={{ backgroundColor: "darkgreen" }}>Go to project</Button>
+                </div>
+                <div className="project">
+                    <img src={Cobalt} alt="" />
+                    <h1>Business Landing Page</h1>
+                    <p>This is my Cobalt landing page prototype template. All placeholder areas can be easily customized with your own text, images, and other information.</p>
+                    <Button href="https://said-movies-tvshows-searcher.vercel.app/" variant="contained" sx={{ backgroundColor: "darkgreen" }}>Go to project</Button>
+                </div>
+                <div className="project">
                     <img src={AfterReel} alt="" />
                     <h1>AfterReel</h1>
                     <p>AfterReel is an interactive web app built with React and modern CSS. It asks users questions and gives ratings based on their answers, combining functionality with a clean, responsive design.</p>
                     <Button href="https://afterreel.vercel.app/" variant="contained" sx={{ backgroundColor: "darkgreen" }}>Go to project</Button>
                 </div>
-                <div className="project">
-                    <img src={MovieSearcher} alt="" />
-                    <h1>Movie/Tv show Searcher</h1>
-                    <p>A web app to search, explore movies and TV series. Browse by name, genre, or IMDb rating, see detailed info and cast, and save your favorites for quick access.</p>
-                    <Button href="https://said-movies-tvshows-searcher.vercel.app/" variant="contained" sx={{ backgroundColor: "darkgreen" }}>Go to project</Button>
-                </div>
+
+
 
             </div>
             <Button id="ctaOfProjects" variant="contained" onClick={() => navigate("/")} href="#mainProjects" >Back</Button>

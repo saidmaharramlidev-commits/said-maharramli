@@ -1,6 +1,6 @@
 import { Button } from "@mui/material"
 import { useNavigate } from "react-router-dom";
-import Cobalt from "../assets/cobalt landing.png"
+import TravelJoy from "../assets/traveljoy.png"
 import Construction from "../assets/construction.png"
 import Saga from "../assets/sagaHero.png"
 
@@ -31,10 +31,10 @@ function Projects() {
                     <Button href="https://said-saga.vercel.app/" variant="contained" sx={{ backgroundColor: "darkgreen" }}>Go to project</Button>
                 </div>
                 <div className="project">
-                    <img src={Cobalt} alt="" />
-                    <h1>Business Landing Page</h1>
-                    <p>This is my Cobalt landing page prototype template. All placeholder areas can be easily customized with your own text, images, and other information.</p>
-                    <Button href="https://said-cobalt-prototype.vercel.app/" variant="contained" sx={{ backgroundColor: "darkgreen" }}>Go to project</Button>
+                    <img src={TravelJoy} alt="" />
+                    <h1>TravelJoy</h1>
+                    <p>TravelJoy is a modern, responsive travel website inspired by Voyalux.az, designed to showcase clean UI and smooth user experience. It highlights my frontend skills through elegant layouts, responsive design, and interactive components built with attention to detail.</p>
+                    <Button href="https://said-travel-joy.vercel.app/" variant="contained" sx={{ backgroundColor: "darkgreen" }}>Go to project</Button>
                 </div>
 
             </div>
