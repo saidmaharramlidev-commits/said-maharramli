@@ -5,6 +5,7 @@ import Cobalt from "../assets/cobalt landing.png"
 import Construction from "../assets/construction.png"
 import Saga from "../assets/sagaHero.png"
 import TravelJoy from "../assets/traveljoy.png"
+import later from "../assets/later.png"
 
 
 
@@ -47,6 +48,12 @@ function AllProjects() {
                     <h1>AfterReel</h1>
                     <p>AfterReel is an interactive web app built with React and modern CSS. It asks users questions and gives ratings based on their answers, combining functionality with a clean, responsive design.</p>
                     <Button href="https://afterreel.vercel.app/" variant="contained" sx={{ backgroundColor: "darkgreen" }}>Go to project</Button>
+                </div>
+                <div className="project">
+                    <img src={later} alt="" />
+                    <h1>Later</h1>
+                    <p>A self-initiated project built to demonstrate my frontend development skills through a clean user experience. While it explores the cost of waiting, the main focus is on performance, UI design, and turning a simple concept into a polished digital product.</p>
+                    <Button href="https://said-later.vercel.app/" variant="contained" sx={{ backgroundColor: "darkgreen" }}>Go to project</Button>
                 </div>
 
 
