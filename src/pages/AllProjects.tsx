@@ -41,7 +41,7 @@ function AllProjects() {
                     <img src={Cobalt} alt="" />
                     <h1>Business Landing Page</h1>
                     <p>This is my Cobalt landing page prototype template. All placeholder areas can be easily customized with your own text, images, and other information.</p>
-                    <Button href="https://said-movies-tvshows-searcher.vercel.app/" variant="contained" sx={{ backgroundColor: "darkgreen" }}>Go to project</Button>
+                    <Button href="https://said-cobalt-prototype.vercel.app/" variant="contained" sx={{ backgroundColor: "darkgreen" }}>Go to project</Button>
                 </div>
                 <div className="project">
                     <img src={AfterReel} alt="" />
